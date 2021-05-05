@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+  <EditText
+      android:id="@+id/ed_signup_email"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="100dp"
+      android:ems="10"
+      android:hint="E-mail"
+      android:inputType="textEmailAddress"
+      tools:layout_editor_absoluteX="103dp"
+      tools:layout_editor_absoluteY="172dp" />
+
+  <EditText
+      android:id="@+id/ed_signup_password"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:ems="10"
+      android:hint="Password"
+      android:inputType="textPassword"
+      tools:layout_editor_absoluteX="108dp"
+      tools:layout_editor_absoluteY="256dp" />
+
+  <EditText
+      android:id="@+id/ed_signup_repassword"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:ems="10"
+      android:hint="Please re-enter Password"
+      android:inputType="textPassword"
+      tools:layout_editor_absoluteX="100dp"
+      tools:layout_editor_absoluteY="355dp" />
+
+  <Button
+      android:id="@+id/btn_signup_SignUp"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:text="Sign up"
+      tools:layout_editor_absoluteX="169dp"
+      tools:layout_editor_absoluteY="467dp" />
+</LinearLayout>

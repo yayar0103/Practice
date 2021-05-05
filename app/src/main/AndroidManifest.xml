@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="tw.com.persion.nicky.apisample">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
@@ -14,13 +16,15 @@
         android:theme="@style/Theme.APISample"
         tools:targetApi="n">
 
-        <activity android:name="">
+        <activity android:name ="tw.com.persion.nicky.apisample.SignUpActivity"></activity>
+        <activity android:name ="tw.com.persion.nicky.apisample.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <activity android:name="tw.com.persion.nicky.apisample.scenes.main.MainActivity"></activity>
+    </application>
 </manifest>
