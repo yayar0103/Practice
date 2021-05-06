@@ -16,8 +16,8 @@
         android:theme="@style/Theme.APISample"
         tools:targetApi="n">
 
-        <activity android:name ="tw.com.persion.nicky.apisample.SignUpActivity"></activity>
-        <activity android:name ="tw.com.persion.nicky.apisample.LoginActivity">
+        <activity android:name ="tw.com.persion.nicky.apisample.scenes.signup.SignUpActivity"></activity>
+        <activity android:name ="tw.com.persion.nicky.apisample.scenes.login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

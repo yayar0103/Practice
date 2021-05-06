@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".SignUpActivity">
+    tools:context=".scenes.signup.SignUpActivity">
 
   <EditText
       android:id="@+id/ed_signup_email"
@@ -42,7 +42,7 @@
       tools:layout_editor_absoluteY="355dp" />
 
   <Button
-      android:id="@+id/btn_signup_SignUp"
+      android:id="@+id/btn_signup_signup"
       android:layout_width="300dp"
       android:layout_height="wrap_content"
       android:layout_marginTop="20dp"

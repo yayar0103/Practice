@@ -1,4 +1,4 @@
-package tw.com.persion.nicky.apisample.scenes.main
+package tw.com.persion.nicky.apisample.manager.api
 
 import android.util.Log
 import com.google.gson.Gson
